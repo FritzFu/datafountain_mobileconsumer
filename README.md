@@ -11,4 +11,7 @@ train_test重复客户分析，填充后效果不变（考虑可以从train中�
 train中NA值fill -> 0，略微调参，overfitting后减少eta和ntree，0.795
 
 ## 9.9
-na处理，rf填充age，待更新。。。
+na处理，rf填充age，删除total_fee为空的训练集，重新train后结果提升，0.811
+
+## 9.14
+drop train中的重复项（7w+），多训练了几轮xgboost，结果提升，0.816
