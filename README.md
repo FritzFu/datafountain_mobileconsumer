@@ -14,11 +14,7 @@ train中NA值fill -> 0，略微调参，overfitting后减少eta和ntree，0.795
 na处理，rf填充age，删除total_fee为空的训练集，重新train后结果提升，0.811
 
 ## 9.14
-<<<<<<< HEAD
 drop train中的重复项（7w+），多训练了几轮xgboost，结果提升，0.8166
 
 ## 9.26
 data refresh，基本xgboost建模，test中type3按照type4的model预测，增加了0.005的分数，0.727
-=======
-drop train中的重复项（7w+），多训练了几轮xgboost，结果提升，0.816
->>>>>>> 9fa2b48921550b951c93467d2d0ec077bf8ecbf2
